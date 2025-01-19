@@ -23,6 +23,8 @@ public class Shaman extends Char {
                 "Class: " + getCharType() + "\n" +
                 getSimpleName() +"'s subclass: " + this.shamanType + "\n" +
                 this.shamanType + " " +getSimpleName() + "'s" + "\n" +
+                "Level: " + getLevel() + "\n" +
+                "Xp: " + getCurrentXp() + "/" + getXpToLevelUp() + "\n" +
                 "Basic Attack Damage: " + getBasicAttackDamage() + "\n" +
                 "Attack Speed: " + getAttackSpeed() + "\n" +
                 "DPS: " + getBasicAttackDamage() * getAttackSpeed() + "\n" +

@@ -1,3 +1,4 @@
+import Chars.Battle;
 import Chars.Char;
 import Chars.CharTypes;
 import Chars.Ninja.Ninja;
@@ -30,5 +31,24 @@ public class Arena {
 //        Char charFromChar = new Char(CharTypes.SURA,10,10,10,10);
 //        System.out.println(charFromChar);
 
+        lines();
+
+        System.out.println(mentalWarr.getSimpleName() + " kills a monster");
+        mentalWarr.gainXp(120);
+
+        lines();
+
+        System.out.println(weaponSura.getSimpleName() + " completes a quest");
+        weaponSura.gainXp(50);
+
+        lines();
+
+        //battle characters
+        //need some fixing, only champ2 attacks atm
+        Battle.battle(assassin, bufferShaman);
+    }
+
+    public static void lines() {
+        System.out.println("-------------------------");
     }
 }
