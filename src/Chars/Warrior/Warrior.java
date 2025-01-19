@@ -20,6 +20,8 @@ public class Warrior extends Char {
                 "Class: " + getCharType() + "\n" +
                 getSimpleName() +"'s subclass: " + this.warriorType + "\n" +
                 this.warriorType + " " +getSimpleName() + "'s" + "\n" +
+                "Level: " + getLevel() + "\n" +
+                "Xp: " + getCurrentXp() + "/" + getXpToLevelUp() + "\n" +
                 "Basic Attack Damage: " + getBasicAttackDamage() + "\n" +
                 "Attack Speed: " + getAttackSpeed() + "\n" +
                 "DPS: " + getBasicAttackDamage() * getAttackSpeed() + "\n" +

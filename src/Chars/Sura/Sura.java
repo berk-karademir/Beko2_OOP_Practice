@@ -23,6 +23,8 @@ public class Sura extends Char {
                 "Class: " + getCharType() + "\n" +
                 getSimpleName() +"'s subclass: " + this.suraType + "\n" +
                 this.suraType + " " +getSimpleName() + "'s" + "\n" +
+                "Level: " + getLevel() + "\n" +
+                "Xp: " + getCurrentXp() + "/" + getXpToLevelUp() + "\n" +
                 "Basic Attack Damage: " + getBasicAttackDamage() + "\n" +
                 "Attack Speed: " + getAttackSpeed() + "\n" +
                 "DPS: " + getBasicAttackDamage() * getAttackSpeed() + "\n" +
