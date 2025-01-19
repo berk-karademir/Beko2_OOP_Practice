@@ -1,6 +1,5 @@
 import Chars.Battle;
 import Chars.Char;
-import Chars.CharTypes;
 import Chars.Ninja.Ninja;
 import Chars.Ninja.NinjaTypes;
 import Chars.Shaman.Shaman;
@@ -9,6 +8,11 @@ import Chars.Sura.Sura;
 import Chars.Sura.SuraTypes;
 import Chars.Warrior.Warrior;
 import Chars.Warrior.WarriorTypes;
+import Mobs.Mob;
+import Mobs.MobLevels;
+import Mobs.Balrog;
+import Mobs.Skeleton;
+import Mobs.Worm;
 
 public class Arena {
     public static void main(String[] args) {
@@ -46,6 +50,30 @@ public class Arena {
         //battle characters
         //need some fixing, only champ2 attacks atm
         Battle.battle(assassin, bufferShaman);
+
+        Mob normalSke = new Skeleton(MobLevels.NORMAL);
+        System.out.println(normalSke);
+        Mob hellSke = new Skeleton(MobLevels.HELL);
+        System.out.println(hellSke);
+
+
+
+        Mob normalWorm = new Worm(MobLevels.NORMAL);
+        System.out.println(normalWorm);
+
+        Mob wildWorm = new Worm(MobLevels.WILD);
+        System.out.println(wildWorm);
+
+
+
+        Mob normalBalrog = new Balrog(MobLevels.NORMAL);
+        System.out.println(normalBalrog);
+
+        Mob wildBalrog = new Balrog(MobLevels.WILD);
+        System.out.println(wildBalrog);
+
+        Mob helllBalrog = new Balrog(MobLevels.HELL);
+        System.out.println(helllBalrog);
     }
 
     public static void lines() {

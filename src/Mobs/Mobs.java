@@ -1,0 +1,33 @@
+package Mobs;
+
+public enum Mobs {
+    WORM,
+    BANDICOOT,
+    LYCAN,
+    WEREWOLF,
+    SPOILER,
+    SKELETON,
+    SCORPION,
+    ORC_WATCHER,
+    URUK_BLADE,
+    MASTODON,
+    LARD_ORC,
+    TREANT,
+    GRELL,
+    HORNET,
+    SMILODON,
+    KOBOLD,
+    LAMIA,
+    STONE_GOLEM,
+    FALCON,
+    HARPY,
+    BALROG,
+    TROLL,
+    SCOLAR,
+    ROTTEN_EYES,
+    DECAYED_ZOMBIE,
+    PARAMUN,
+    APOSTLE,
+    DERUVISH,
+
+}

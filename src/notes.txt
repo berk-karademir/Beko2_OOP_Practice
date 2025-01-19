@@ -1,0 +1,21 @@
+-poison ve bleed dmg ?
+
+
+-her bir mob 3 ayrı seviyede olmalı:
+mesela Skeleton mobu Mob classından yaratılmalı ve 3 farklı zorlukta olmalı
+Skeleton, Wild Skeleton, Hell Skeleton gibi.
+statları ve verdiği xp de buna göre değişecek.
+
+
+Furkan'a:
+level alınca karakterin base statları küçük bir yüzdelik oranda artsın.
+
+
+setBaseHp(double incrementPercentage) {
+    this.baseHP += this.baseHP * incrementPercentage;
+}
+//this.baseHP = this.baseHP + (this.baseHP * incrementPercentage);
+gibi
+
+
+Her  level atlamada bir sonraki level için gerekli xp, yüzdelik oranda artsın.
